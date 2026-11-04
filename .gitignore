@@ -1,0 +1,48 @@
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Node
+node_modules/
+dist/
+.vite/
+
+# Models and datasets
+*.gguf
+*.safetensors
+*.bin
+models/
+datasets/
+
+# Databases and vector storage
+*.db
+*.sqlite3
+qdrant_storage/
+postgres_data/
+redis_data/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+.tmp/
+temp/
